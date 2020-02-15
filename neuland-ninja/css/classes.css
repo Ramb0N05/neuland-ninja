@@ -1,0 +1,156 @@
+.bold {
+    font-weight: bold;
+ }
+
+.optionsTblChild {
+    width: 100%;
+}
+
+.extraInfoText {
+    font-weight: normal;
+    color: #8C8C8C;
+}
+
+.infoText {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+
+    color: #2ead96;
+
+    border: 1px solid #2ead96;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.warnText {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+
+    color: #AB9D37;
+
+    border: 1px solid #AB9D37;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.errorText {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+
+    color: #CF0000;
+
+    border: 1px solid #CF0000;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.valign-top {
+    vertical-align: top;
+}
+
+.halign-right {
+    text-align: right;
+}
+
+.halign-left {
+    text-align: left;
+}
+
+.halign-center {
+    text-align: center;
+}
+
+.halfSizeCT {
+    width: 50% !important;
+}
+
+.almostFullWidthCT {
+    width: 95% !important;
+}
+
+.invisibleLink {
+    color: initial;
+}
+
+.invisibleLink:visited {
+    color: initial;
+}
+
+.internalLink::before {
+    content: '\00203A\002009\002009';
+}
+
+.internalLink::after {
+    content: '\002009\002009\002039';
+}
+
+.externalLink::before {
+    content: '\0000BB\0000A0';
+}
+
+.externalLink::after {
+    content: '\0000A0\0000AB';
+}
+
+.mailLink::before {
+    content: '\002709\0000A0';
+}
+
+.tel {
+    color: #006080;
+}
+
+.tel::before {
+    content: '\002121\002009';
+}
+
+.navListH {
+    margin: 0 auto;
+    margin-top: 0.6em;
+    padding: 0;
+}
+
+.navListH > li {
+    list-style: none;
+}
+
+.sectionCaption {
+    font-size: 3.3vmin;
+}
+
+.imgButton > img {
+	vertical-align: middle;
+}
+
+.rTable { display: table; }
+.rTableRow { display: table-row; }
+.rTableHeading { display: table-header-group; }
+.rTableBody { display: table-row-group; }
+.rTableFoot { display: table-footer-group; }
+.rTableCell, .rTableHead { display: table-cell; }
+
+
+.rTableFull { width: 100%; text-align: center; }
+.rTableFull > .rTableHeading { background-color: #dddddd; }
+.rTableFoot > .rTableFoot { background-color: #dddddd; }
+
+.rTableFull > .rTableRow > .rTableHead,
+.rTableFull > .rTableHeading > .rTableRow > .rTableHead,
+.rTableFull > .rTableBody > .rTableRow > .rTableHead,
+.rTableFull > .rTableFoot > .rTableRow > .rTableHead,
+.rTableFull > .rTableRow > .rTableCell,
+.rTableFull > .rTableHeading > .rTableRow > .rTableCell,
+.rTableFull > .rTableBody > .rTableRow > .rTableCell,
+.rTableFull > .rTableFoot > .rTableRow > .rTableCell { padding: 3px 10px; border: 1px solid #999999; vertical-align: middle; }

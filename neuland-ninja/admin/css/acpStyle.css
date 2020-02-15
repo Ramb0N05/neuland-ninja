@@ -1,0 +1,70 @@
+nav {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ead96+0,00ffcb+100 */
+    background: #32BEA6; /* Old browsers */
+    background: -moz-linear-gradient(left, #2ead96 0%, #00ffcb 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #2ead96 0%,#00ffcb 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #2ead96 0%,#00ffcb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ead96', endColorstr='#00ffcb',GradientType=1 ); /* IE6-9 */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+#acpBrand {
+	width: 50vw;
+}
+
+#acpLogo {
+	padding: 0;
+}
+
+#acpCaption {
+    color: #FFFFFF;
+    font-size: 3rem;
+    text-shadow: 0 0 8px #000000;
+}
+
+#acpCaptionCT {
+	min-height: 3rem;
+	height: 10.5vh;
+}
+
+#acpNav {
+	padding: 0;
+	margin: 0;
+	border-right: 1px solid #8C8C8C;
+}
+
+#ninjaAcpNavCT {
+	position: absolute;
+	top: 4.3rem;
+	left: 0;
+	
+	width: 250px;
+	height: calc(100vh - 4.3rem);
+	text-align: left;
+	
+	border-right: 1px solid #8C8C8C;
+}
+
+#ninjaAcpContentCT {
+	position: absolute;
+	top: 4.3rem;
+	left: 257px;
+	
+	width: calc(100% - 263px);
+	text-align: left;
+}
+
+
+
+#wrapper {
+	min-width: 920px;
+}

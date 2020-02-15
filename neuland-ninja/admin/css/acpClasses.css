@@ -1,0 +1,29 @@
+.acpNavListH {
+    margin: 0 auto;
+    margin-top: 0.3em;
+	margin-left: 0.6em;
+    padding: 0;
+}
+
+.acpNavListH > li {
+    list-style: none;
+}
+
+.acpNavListH > li > a {
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.acpNavListH > li > a:hover {
+	color: #2ead96;
+	margin-left: 0.5em;
+	
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
